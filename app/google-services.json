@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "178736706173",
+    "firebase_url": "https://eatsdb-36fdb.firebaseio.com",
+    "project_id": "eatsdb-36fdb",
+    "storage_bucket": "eatsdb-36fdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178736706173:android:722661454e489766",
+        "android_client_info": {
+          "package_name": "com.sya.classeats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178736706173-4f6842hikr70rjdo594giu4r6stdtsgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sya.classeats",
+            "certificate_hash": "538d31eb28362af4fd1ac2d39c67b917980f91ce"
+          }
+        },
+        {
+          "client_id": "178736706173-k25ndrduotv6c23bv3593mvbrt0de5m7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-t9eviKK4Vgxmii2_cVUOEGSBfuQv-mg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178736706173-k25ndrduotv6c23bv3593mvbrt0de5m7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

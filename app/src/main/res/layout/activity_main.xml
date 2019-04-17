@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColour"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Class Eats"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/database"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_below="@id/name"
+        android:background="#FFF"/>
+
+    <Button
+        android:id="@+id/addGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/database"
+        android:text="Add group"
+        android:onClick="addGroup"/>
+
+    <Button
+        android:id="@+id/removeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addGroup"
+        android:text="Clear list"
+        android:onClick="removeGroup"/>
+
+
+</RelativeLayout>
