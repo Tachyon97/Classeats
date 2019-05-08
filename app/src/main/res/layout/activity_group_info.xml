@@ -4,26 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroundColour"
-    tools:context=".MainActivity">
+    tools:context=".Group_info">
 
     <include
         android:id="@+id/action_bar"
         layout="@layout/actionbar" />
 
-    <ListView
-        android:id="@+id/database"
+    <include
+        layout="@layout/display"
         android:layout_width="wrap_content"
-        android:layout_height="500dp"
-        android:layout_below="@+id/action_bar"
-        android:background="@drawable/rounded" />
-
-    <Button
-        android:id="@+id/addGroup"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/database"
-        android:onClick="addGroup"
-        android:text="Add group" />
-
+        android:layout_below="@+id/action_bar"
+        android:layout_marginTop="5dp" />
 
 </RelativeLayout>

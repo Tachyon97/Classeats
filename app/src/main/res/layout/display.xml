@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded">
+
+    <TextView
+        android:id="@+id/groupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#MA18"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/amountEating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/groupName"
+        android:layout_marginTop="10dp"
+        android:text="0 Want to eat outside"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amountEating"
+        android:layout_marginTop="10dp"
+        android:text="Lets meet outside classroom during lunch break and decide what to eat"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/doJoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/square"
+        android:text="Wanna join em?"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/yesB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doJoin"
+        android:layout_alignLeft="@id/doJoin"
+        android:layout_marginLeft="15dp"
+        android:text="Yes" />
+
+    <Button
+        android:id="@+id/noB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doJoin"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/yesB"
+        android:text="No" />
+
+
+</RelativeLayout>
